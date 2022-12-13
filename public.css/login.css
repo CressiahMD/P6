@@ -100,3 +100,95 @@ body{
 .reg-btn button:hover{
     background-color: rgba(238,174,202,1);
 }
+
+@media screen and (max-width: 1050px)
+{
+    .body
+    {
+        grid-gap: 5rem;
+    }
+    .img-container{
+        text-align: center;
+    }
+    .img-container img{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    }
+    
+@media screen and (max-width: 1000px)
+{
+    .rightbar
+    {
+        width: 300px;
+        height: 393px;
+    }
+    .rightbar.form-container
+    {
+        font-size: 20px;
+        margin: 8px 0;
+    }
+    .img-container{
+        text-align: center;
+    }
+    .img-container img{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 900px)
+{
+    .leftbar
+    {
+        display: none;
+    }
+    .rightbar
+    {
+        margin-top: 100px;
+        justify-content: center;
+        width: 900px;
+        height: 430px;
+    }
+    .form-container {
+        margin-left: 10px;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .form-container label {
+        display: inline-block;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .img-container{
+        text-align: center;
+    }
+    .img-container img{
+        width: 190px;
+        height: 190px;
+        border-radius: 50%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    .form-container input {
+        margin-right: 10px;
+        margin-left: 10px;
+        border: 2px solid #f0f0f0;
+        padding-bottom: 5px;
+        margin-bottom: 6px;
+        border-radius: 4px;
+        display: block;
+        font-family: inherit;
+        font-size: 12px;
+        padding: 10px;
+        width: 83%;
+    }
+}
